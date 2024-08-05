@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ola.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<style>
+  body{
+    /* background-color: gray; */
+    background-size: cover;
+  }
+</style>
+<body>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="/image/oriamo1.webp" height="400px"></div>
+      <div class="swiper-slide"><img src="/image/oriamo2.webp" height="400px"></div>
+      <div class="swiper-slide"><img src="/image/oriamo3.webp" height="400px" width="500px"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> 
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    // direction: 'vertical',
+    // loop: true,
+     autoplay :{
+        delay:2000,
+     }, 
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+</script>
+
+<section class="Jumia">
+  <div class="Jumia-sales">
+    <div><img src="/image/appliances.png" alt=""></div>
+    <div><p class="Text">Appliances Sales</p></div>
+  </div>
+
+  <div class="Jumia-sales1">
+      <div><a href=""><img src="/image/Artboard_1.png" alt=""></a></div> 
+      <p class="Text"> Clearance Sales</p>
+    </div>
+
+
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy.png" alt=""></a>
+    <p class="Text">Home Essentials</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy_13.png" alt=""></a>
+    <p class="Text"`>Special Offer</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy_2.png" alt=""></a>
+    <p class="Text">Phone & Tablet Deals</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy_3.png" alt=""></a>
+    <p class="Text">Computing Deals</p>
+  </div>
+
+ 
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy_4.png" alt=""></a>
+    <p class="Text">Grocery Deals</p>
+  </div>
+  
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy_6.png" alt=""></a>
+    <p class="Text">Men Sneakers</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/Artboard_1_copy_7.png" alt=""></a>
+    <p class="Text">Mobile Accessories</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/beauty.png" alt=""></a>
+    <p class="Text">Beauty Deals</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/BUY-NOW-PAY-LATER_GIF-2.gif" alt=""></a>
+    <p class="Text">Buy Now, Pay Later</p>
+  </div>
+
+  
+  <div class="Jumia-sales">
+    <a href=""><img src="/image/electronics.png" alt=""></a>
+    <p class="Text">Electronics Deals</p>
+  </div>
+
+</section>
+
+
+<section class="Appliances">
+  <div class="Jug">
+    <span>Appliances For Less Deals</span><span> SEE ALL</span>
+  </div>
+
+   <!-- Slider main container -->
+ <div class="swiper-less">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper2">
+    <!-- Slides -->
+    <div class="swiper-slide2"><img src="/image/hisense.jpg" height="400px"></div>
+    <div class="swiper-slide2"><img src="/image/itel.jpg" height="400px"></div>
+    <div class="swiper-slide2"><img src="/image/nexus.jpg" height="400px" width="500px"></div>
+    <div class="swiper-slide2"><img src="/image/royal.jpg" height="400px"></div>
+    <div class="swiper-slide2"><img src="/image/skyrun.jpg" height="400px"></div>
+    <div class="swiper-slide2"><img src="/image/ace.jpg" height="400px"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination2"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev2"></div>
+  <div class="swiper-button-next2"></div>
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const swiper1 = new Swiper('.swiper-less', {
+  // Optional parameters
+  // direction: 'vertical',
+  // loop: true,
+   autoplay :{
+      delay:2000,
+   }, 
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  // Navigation arrows
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+</script> 
+</section>
+</body>
+</html>

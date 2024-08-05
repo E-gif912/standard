@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #fdf5f3;
+    width: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+
+}
+
+.lady{
+    color: blue;
+    font-weight: 800;
+    font-size: xx-large;
+
+}
+
+.nav-middle{
+    display: flex;
+    font-size: 20px;
+
+}
+
+.navbar1{
+    padding: 0 10px;
+
+}
+
+a{
+    color: black;
+}
+
+.nav-middle a:hover{
+    color: blue;
+}
+
+#search{
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.login{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.Better-container{
+    padding:100px 250px;
+    width:100%;
+    background:linear-gradient(to right,#FFEDDF,#F5EFF3);
+    height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.Better-left{
+    width: 50%;
+    height: 100%;
+}
+
+.Better-left .better{
+    color: blue;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing:3px ;
+    padding-bottom: 17px;
+}
+
+.Better-left .h1{
+    font-size:100px;
+    width: 555px;
+    margin-bottom:20px ;
+}
+
+.Better-left .Lorem{
+    font-size: 19px;
+    color:#908996;
+    line-height:34px;
+    margin-bottom: 40px;
+}
+
+.Better-left .button{
+    background-color: blue;
+    padding: 17px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 2s ease-in-out;
+    column-gap: 5px;
+}
+
+.Better-left .button:hover{
+    background-color: black;
+}
+
+.Better-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.Better-right .image1{
+    position: absolute;
+    width: 250px;
+    top: -400px;
+    left: 300px;
+}
+
+
+.Better-right .image2{
+    right: -330px;
+    width: 10px;
+    position: absolute;
+    z-index: 20;
+    top: -250px;
+    
+}
+
+.Better-right .image3{
+    position: absolute;
+    left: 10px;
+    width: 450px;
+    bottom: -270px;
+}
+
+.category{
+    text-align: center;
+    width: 960px;
+    margin: 70px auto;
+
+}
+
+.category-title{
+    color: blue;
+}
+
+.category-title2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.category-section{
+    /* display:grid; */
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin: 20px auto ;
+    justify-content: center;
+    display:grid;
+    row-gap: 10px;
+}
+
+
+.Course{
+    text-align: center;
+}
+
+.icons-text{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 20px;
+    padding: 20px 20px;
+}
+
+.icons-text:hover{
+    background-color: #515cde;
+    color: white;
+}
+
+.offer-container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+}
+
+
+.offer-left{
+    position: relative;
+    width: 50%;
+}
+
+.offer-left .offer1{
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    bottom:80%;
+    left: 20px;
+}
+
+.offer-left .offer1 img{
+    width: 100%;
+}
+
+.offer-left .offer2{
+    width: 430px;
+    height: 120px;
+    z-index: 1;
+    position: absolute;
+    left: 170px;
+}
+
+.offer-left .offer2 img{
+    width: 100%;
+}
+
+.offer-left .offer3{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 60%;
+    z-index: 2;
+    top: 200px;
+}
+.offer-left .offer3 img{
+    width: 100% ;
+}
+
+.offer-right{
+    width: 50%;
+}
+
+.woman{
+    color: blue;
+    margin-left: 2px;
+}
+
+.older{
+    font-size:xx-large ;
+    font-weight: 800;
+}
+
+.industry{
+    font-size:larger;
+}
+
+.offer-right .Lorem{
+    font-size: 19px;
+    color:#908996;
+    line-height:24px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.offer-right .button{
+    background-color: blue;
+    padding: 17px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 2s ease-in-out;
+    column-gap: 5px;
+    margin-bottom: 25px;
+}
+
+.Hi{
+    color: blue;
+    text-align: center;
+}
+
+.Hello{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.popular{
+    background: linear-gradient(to right,#ffeddf,#f5eff3);
+    width: 100%;
+    height: 120vh;
+    padding: 100px 250px;
+}
+
+.Microsoft{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin: 50px auto ;
+    justify-content: center;
+    display:grid;
+    row-gap: 40px;
+}
+
+.Eyeball{
+    background-color: white;
+}
+.hand{
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
