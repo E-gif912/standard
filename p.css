@@ -47,6 +47,7 @@ a{
 
 .middle{
     text-align: center;
+    /* width: 26%; */
 }
 
 .middle input{
@@ -56,5 +57,9 @@ a{
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
+}
+
+.logo4{
+    width: 90px;
 }
 

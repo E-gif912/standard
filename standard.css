@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.stardand{
+    width: 100%;
+    height: 3vh;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.book{
+    display: flex;
+    align-items: center;
+}
+.leg{
+    padding-left: 300px;
+    padding: o 20px;
+    
+}
+.fit{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.nav-top{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    padding-right: 400px;
+    color: black;
+}
+.nav{
+    padding:0 10px;
+
+}
+.nav-top.nav.a{
+    color: black;
+}
+.nav-top.nav:hover{
+    color: green;
+}
+
+.container{
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    position: sticky;
+}
+.logo{
+    padding-left: 270px;
+}
+.nav-middle{
+    display: flex;
+    font-size: 20px;
+}
+.nav-bar1{
+    padding: 0 15px;
+}
+.open{
+    border: 1px solid green;
+    padding: 5px 5px;
+    /* color: green; */
+    margin-right: 10px;
+    font-size: 15px;
+}
+.nav-right.open.a{
+    color: green;
+}
+.login{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.nav-right{
+    display: flex;
+    padding-right: 200px;
+}
+.swiper-slide{
+    border-radius: 10px;
+}
+.swiper-slide{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-size: 50px; */
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.swiper{
+    height: 400px;
+    margin: 0px 100px;
+    padding: 0 60px;
+    width: 3500x;
+}
+.test-overlay{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    color: white;
+    /* width: 50%; */
+    /* font-size: 50px; */
+    padding: 10px;
+}
+.laptop{
+    font-size: 50px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.read-more{
+    border: 2px solid white;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 20px;
+    position: absolute;
+    /* margin: 0px 10px; */
+    background-color: green;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.digital{
+    font-size: 20px;
+    margin-bottom: 30px;
+    left:15px;
+    position: absolute;
+}
+.button-house{
+    border: 2px solid;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 50px;
+    position: absolute;
+    font-size: 15px;
+    margin-top: 40px;
+    left: 15px;
+}
+.sided{
+    font-size: 20px;
+    margin-bottom: 30px;
+    left: 15px;
+}
+.wealth{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    justify-content: center;
+}
+.account{
+    display: flex;
+    padding: 0 40px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 30px;
+}
+.loan{
+    padding: 10px;
+    font-size: 30px;
+    color:#1d81be;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.line{
+    font-size: 20px;
+    padding: 70px;
+    
+}
+.hii{
+    height: 100px;
+}
+.account.loan :hover{
+    color: green;
+}
+.promotion{
+    width: 100%;
+    height: 30vh;
+    background-color: #f6f6f6;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.walk{
+    font-size: 30px;
+    /* right: 100px; */
+    /* margin-top: 30px; */
+    padding: 30px 150px;
+    /* width: 50%; */
+    /* margin-top: 50px; */
+    /* padding-right: 60px; */
+    /* justify-content: right; */
+    /* margin-right: 50px; */
+    /* left: 50px; */
+}
+.word{
+    display: flex;
+    padding: 0 150px;
+}
+.toe{
+    width: 100%;
+    padding: 10px;
+}
+.test-result{
+    /* width: 100%; */
+    position: absolute;
+    top: 85%;
+    color: black;
+    padding: 10px;
+}
+.word-image{
+    overflow: hidden;
+}
+.start{
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    /* padding-right: 50px; */
+    padding-left: -20px;
+}
+.bond{
+    margin-bottom: 20px;
+    padding-left: -150px;
+}
+
+
+.option{
+    width: 100%;
+    height: 70vh;
+    background-color: #f6f6f6;
+    /* padding: 50px; */
+}
+.new{
+    /* right: 300px; */
+    padding: 30px 150px;
+    font-size: 30px;
+
+}
+.container-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 150px; 
+}
+.bus{
+    background-color: white;
+    width: 300px;
+    height: 470px;
+    margin-top: 10px;
+    margin-right: 10px;
+    /* padding: 10px; */
+}
+.bus-image{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.pull{
+    margin-top: 10px;
+    font-size:23px;
+    padding-left: 10px;
+}
+.just{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.banking{
+    width: 100%;
+    height: 60vh;
+    background-color: #f6f6f6;
+}
+.premium{
+    font-size: 30px;
+    padding: 30px 150px;
+}
+.platimum{
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    padding: 0px 150px;
+}
+.picture{
+    background-color: white;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 400px;   
+
+}
+.picture-image{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.jij{
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.kik{
+    padding:15px ;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+.eye{
+    width: 100%;
+    height: 35vh;
+    background-color:#f6f6f6;
+}
+.lang{
+    font-size: 30px;
+    padding: 30px 150px;
+}
+.lover{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 150px;
+ }
+ .love{
+    background-color: white;
+    height: 200px;
+    width: 400px  ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+ .love-image{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+ }
+ .idol{
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+ }
+ .shrine{
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+ }
+ .mobile{
+    width: 100%;
+    height: 35vh;
+ }
+ 
+ .key{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    display: flex;
+ }
+ .overlay-text{
+    position: absolute;
+    top: 35%;
+    /* left: 30%; */
+    color: white;
+    padding: 10px;
+    /* transform: translate(-30%, -30%); */
+ }
+ .cup{
+    margin-bottom: 20px;
+    padding-left: 120px;
+ }
+ .token{
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-left: 120px;
+    
+ }
+ .button{
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 0px 115px;
+    
+ }
+ .steel{
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+    
+ }
+ .sexy{
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-left: 20px;
+ }
+ .button-less{
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 0px 20px;
+ }
+ .button:hover{
+    background-color: white;
+    color: black;
+ }
+ .button-less:hover{
+    background-color: white;
+    color: black;
+ }
+
+ .information{
+    width: 100px;
+    height: 90vh;
+ }
+ .info{
+    color: blue;
+    padding: 10px 120px;
+    font-size: 30px;
+ }
+ .pity{
+    display: flex;
+ }
+ .footer{
+    width: 100%;
+    height: 50vh;
+    background-color:#2b2929;
+    padding: 30px 150px;
+    display: flex;
+    margin-bottom: 20px;
+ }
+ .nav-down{
+    color: #ffff;
+    display: flex;
+    padding: 30px;
+ }
+ .below{
+    margin-bottom: 10px;
+ }
+ .kiss{
+    border: 1px solid;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #ffff;
+    margin-bottom: 10px;
+ }
+
+ 

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardand</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="standard.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<body>
+    <section class="stardand">
+        <div class="book">
+            <p class="leg">You are in</p>
+            <h2 class="fit">Personal Banking</h2>
+        </div>
+
+        <main class="nav-top">
+            <p class="nav"><a href="">Services</a></p>
+            <p class="nav"><a href="">Digital banking</a></p>
+            <p class="nav"><a href=""><i class="bi bi-search"></i></a></p>
+            <p class="nav"><a href="">Nigeria</a></p>
+        </main>
+    </section>
+
+    <section class="container">
+        <div class="logo">
+            <img src="/image/logo.png" alt="" height="70px">
+        </div>
+
+        <main class="nav-middle">
+            <p class="nav-bar1"><a href="">Account & Deposit</a></p>
+            <p class="nav-bar1"><a href="">Borrow</a></p>
+            <p class="nav-bar1"><a href="">Cards</a></p>
+            <p class="nav-bar1"><a href="">Invest</a></p>
+            <p class="nav-bar1"><a href="">Help</a></p>
+        </main>
+
+        <main class="nav-right">
+            <div class="open">
+                <a href=""><i class="bi bi-person"></i>OPEN AN ACCOUNT</a>
+            </div>
+
+            <div class="login">
+                <a href=""><i class="bi bi-person"></i></a>
+                <a href="">LOGIN</a>
+            </div>
+        </main>
+    </section>
+
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="/image/ng-pil-campaign.jpg" width="1920px" height="400px" >
+          <div class="test-overlay">
+            <h2 class="laptop">Refer a friend and get 100,000!!!</h2>
+            <div class="read-more"><a>READ MORE</a></div>
+           </div>
+       </div>
+
+       <div class="swiper-slide">
+         <img src="/image/ng-digital-banking-tinified-1600x-350y.jpg" width="1920px" height="400px">
+         <div class="test-overlay">
+           <h2 class="laptop">Digital banking designed with you in mind </h2>
+           <p class="digital">Explore everything that can be done digitally in just minutes</p>
+           <div><a class="button-house" href="">FIND OUT MORE</a></div>
+          </div>
+       </div>
+
+       <div class="swiper-slide">
+         <img src="/image/ng-SC_E-Naira_Banner-alt-3.jpg" width="1920px" height="400px">
+         <div class="test-overlay">
+           <h2 class="laptop">enaira</h2>
+           <p class="sep">enaira digital currency is live on our digital platform!</p>
+            <div><a class="button-house" href="">READ MORE</a></div>
+         </div>
+       </div>
+
+       <div class="swiper-slide">
+         <img src="/image/ng-wm-campaign-masthead-1600x490px.jpg" width="1920px" height="400px">
+         <div class="test-overlay">
+           <h2 class="laptop">Are you getting only one sided advice?</h2>
+           <p class="sided">With priority banking, you enjoy advice from a trained relationship manager who consults certified experts </p>
+           <div><a class="button-house" href="">LEARN MORE</a></div>
+          </div>
+       </div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+ const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    // direction: 'vertical',
+    // loop: true,
+     autoplay :{
+        delay:2000,
+     }, 
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+</script> 
+
+<section class="wealth">
+    <div class="account">
+      <div>
+        <span class="loan"><i class="bi bi-bank"></i></span>
+        <span class="line">Account & Deposit</a></span>
+      </div>
+        <hr class="hii">
+      <div>
+        <span class="loan"><i class="bi bi-person-fill-check"></i></span>
+        <span class="line"> Personal Loan</a></span>
+      </div>
+        <hr class="hii">
+      <div>
+        <span class=" loan"><i class="bi bi-credit-card"></i></span>
+        <span class="line">Credits card</a></span>
+      </div>
+        <hr class="hii">
+      <div>
+        <span class="loan"><i class="bi bi-credit-card"></i></span>
+        <span class="line">Debit Card</a></span>
+      </div>
+        <hr class="hii">
+      <div>
+        <span class="loan"><i class="bi bi-cash-coin"></i></span>
+        <span class="line">Wealth</a></span>
+    </div>
+</section>
+
+<section class="promotion">
+  <div class="walk">
+    <p>Promotions</p> 
+  </div>
+
+  <div class="word">
+    <div class="toe">
+      <main class="word-image">
+        <img src="/image/ng-frame-3390.jpg">
+        <div class="test-result">
+          <p class="start">Maximise opportunities for greater returns with our Bonds offering</p>
+          <p class="bond">Start by investing a minimum of NGN100,000 in FGN Bonds</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="toe">
+      <main class="word-image">
+        <img src="/image/ng-frame-3394.jpg">
+        <div class="test-result">
+         <p class="start">Interested in attractive yield</p>
+         <p class="bond">Maximise opporttunities for greater returns with our trust bonds pffering</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="toe">
+      <main class="word-image">
+        <img src="/image/ng-frame-3396.jpg">
+        <div class="test-result">
+          <p class="start">Tailor-made investment services for you</p>
+          <p class="bond">Log on to SC mobile app and click on investment profile under investing menu</p>
+        </div>
+      </main>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="option">
+  <div class="new">
+    <p>What's New</p>
+  </div>
+
+  <div class="container-box">
+    <div class="bus">
+      <div class="bus-image">
+        <img src="/image/ng-app-online-purchasing-mobile-banner-400x400-1-300x300.jpg">
+      </div>
+
+      <div class="mode">
+        <div class="look">
+          <p class="pull">Does that online bargain look like a steal?</p>
+          <p class="just">Careful-it just might be</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bus">
+      <div class="bus-image">
+        <img src="/image/ng-couples-personal-loan-400x-400y.jpg" width="350px" height="300px">
+      </div>
+
+      <div class="mode">
+        <div class="look">
+          <p class="pull">Personal Loan ! Online Loan In Nigeria</p>
+          <p class="just">Unlock a world of possibilities,fulfil your future plans today with an unsecured Personal loan</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bus">
+      <div class="bus-image">
+        <img src="/image/ng-reward-for-a-pintile-300x300.jpg" width="300px" height="300px">
+      </div>
+
+      <div class="mode">
+        <div class="look">
+          <p class="pull">Reward For As</p>
+          <p class="just">Spur children to excel academically, reward them for good performance and cultivate saving culture from a tender age</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bus">
+      <div class="bus-image">
+        <img src="/image/PlatinumCreditCard-ng.jpg" width="300px" height="300px">
+      </div>
+
+      <div class="mode">
+        <div class="look">
+          <p class="pull">Visa Platimum Credit Card-Enjoy Higher Credit Card</p>
+          <p class="just">Welcome to a whole new world of elite priviledges coming your way</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bus">
+      <div class="bus-image">
+        <img src="/image/ng-sc-mobile-app-masthead-400x400y.jpg" width="300px" height="300px">
+      </div>
+
+      <div class="mode">
+        <div class="look">
+          <p class="pull">SC MOBILE</p>
+          <p class="just">Open your bank account instantly on our SC Mobile App</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="banking">
+  <div class="premium">
+    <p>Banking For Individuals</p>
+  </div>
+
+  <div class="platimum">
+    <div class="picture">
+      <main class="picture-image">
+        <img src="/image/gh-personal-banking-banner-400x-400y.jpg-200x200.jpg" alt="">
+        <div class="thinking">
+         <p class="jij">Personal banking </p>
+         <p class="kik">Simple and smarter banking to help you save, spend and get rewarded</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="picture">
+      <main class="picture-image">
+        <img src="/image/gh-priority-banking-400x-400y.jpg-200x200.jpg">
+        <div class="thinking">
+          <p class="jij">Priority Banking</p>
+          <p class="kik">Global expertise to help you preserve and grow your wealth.</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="picture">
+      <main class="picture-image">
+        <img src="/image/gh-private-banking-400x-400y.jpg-200x200.jpg">
+        <div class="thinking">
+          <p class="jij">Private Banking</p>
+          <p class="kik">Bespoke services that connect you to wealth oppprtunties in our footprint.</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="picture">
+      <main class="picture-image">
+        <img src="/image/ng-sky-premium-banking-400x-400y-new-200x200.jpg">
+        <div class="thinking">
+          <p class="jij">Premium Banking</p>
+          <p class="kik">Premium banking helps you prepare for life's key moment.</p>
+        </div>
+      </main>
+    </div>
+
+    <div class="picture">
+      <div class="picture-image">
+        <img src="/image/ng-online-banking-digital-banking-ipad-computer-scaled-400x-400y.jpg-200x200.jpg">
+        <div class="thinking">
+          <p class="jij">Digital Banking</p>
+          <p class="kik">Bank anywhere with the world's best digital bank</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="eye">
+  <div class="lang">
+    <p>Banking for companies</p>
+  </div>
+
+  <div class="lover">
+    <div class="love">
+      <main class="love-image">
+        <img src="/image/gh-business-banking-400x-400y-new-200x200 (1).jpg">
+        <div class="sleeping">
+         <p class="idol">Business Banking</p>
+         <p class="shrine">Easy and transaparent banking to help you grow your business</p>
+        </div>
+      </main>
+    </div>
+
+    
+    <div class="love">
+      <main class="love-image">
+        <img src="/image/gh-corporate-banking-400x-400y.jpg-200x200 (1).jpg">
+        <div class="sleeping">
+         <p class="idol">Corporate Banking</p>
+         <p class="shrine">Global banking solutions for MNCs and financial institutions.</p>
+        </div>
+      </main>
+   </div>
+
+  </div>
+</section>
+
+<section class="mobile">
+  <div class="key">
+    <main class="view">
+      <img src="/image/ng-markets-view-on-the-go-new.jpg" height="300px" width="944px">
+      <div class="overlay-text">
+       <p class="cup">MARKET VIEW ON-THE-GO</p>
+       <p class="token">Outlook 2021: vacinating against valuation</p>
+       <p><a class="button" href="">FIND OUT MORE</a></p>
+      </div>
+   </main>
+
+
+    <div class="key">
+      <main class="view">
+        <img src="/image/ng-sc-mobile-key-882x-480y.jpg" height="300px" width="944px">
+        <div class="overlay-text">
+         <p class="steel">STANDARD CHARTERED MOBILE KEY</p>
+         <p class="sexy">Your mobile phone is now your token with startered chartered mobile key</p>
+         <p><a class="button-less" href="">FIND OUT MORE</a></p>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<section class="informatiom">
+  <div class="info">
+    <p>Important Information</p>
+  </div>
+
+  <main class="pity">
+    <span class="hihi"><i class="bi bi-check"></i>January 16,2024</span> unsecured lending empanelled companies
+    <span class="hihi"><i class="bi bi-check"></i>August 16,2024</span> Daily card exchange rates
+    <span class="hihi"><i class="bi bi-check"></i>August 16,2024</span> Bond & FX prices
+    <span class="hihi"><i class="bi bi-check"></i>August 16,2024</span> Retail banking fee & charges
+  </main>
+
+</section>
+
+<footer class="footer">
+  <nav class="nav-down">
+    <ul>
+      <li class="below">ABOUT US</a></li>
+      <li class="below">BOARDS OF DIRECTORS</a></li>
+      <li class="below">NEWS & MEDIA</a></li>
+      <li class="below">PROTECTING OUR CLIENTS AND THE FINANCIAL SYSTEM</a></li>
+    </ul>
+  </nav>
+
+  <nav class="nav-down">
+    <ul>
+      <li class="below">CAREERS</li>
+      <li class="below">CLIENT TERMS</li>
+      <li class="below">OUR GLOBAL WEBSITE</li>
+      <li class="below">WORDWIDE LOCATIONS</li>
+    </ul>
+  </nav>
+
+  <nav class="nav-down">
+    <ul>
+      <li class="below">FIGHTING FRAUD</li>
+      <li class="below">IMPORTANT INFORMATION</li>
+      <li class="below">SECURITY TIPS</li>
+      <li class="below">TERMS & CONDITION</li>
+      <li class="below">COOKIES POLICY</li>
+      <li class="below">PRIVACY NOTICE</li>
+      <li class="below">IMS POLICY STATEMENT</li>
+      <li class="below">ISO 45001 STATEMENT</li>
+      <li class="below">MANAGE COOKIES</li>
+    </ul>
+  </nav>
+  <hr>
+
+  <nav class="nav-down">
+    <ul>
+      <li class="kiss"><i class="bi bi-apple"></i>Download on the App store</li>
+      <li class="kiss"><i class="bi bi-google-play">Get it on Google play</i></li>
+      <li class="below">PERSONAL BANKING CONTACT</li>
+      <li class="below">Contact centre number</li>
+      <li class="below">09031128991</li>
+      <li class="below">08022743569</li>
+      <li class="below">CORPORATE & INSTITUTIONAL AND COMMERCIAL BANKING CLIENTS CONTACT</li>
+      <li class="below">Client service lines (Mon-Fri during business hour)</li>
+      <li class="below">+2348712345896</li>
+      <li class="below">+2345678901234</li>
+    </ul>
+  </nav>
+</footer>
+</body>
+</html>
